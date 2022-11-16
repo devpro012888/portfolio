@@ -57,17 +57,16 @@ body {
 p {
   text-align: justify;
   line-height: 25px;
-}
-p .intro {
   order: 2;
 }
+
 img {
   margin-right: 25px;
+  order: 1;
 }
-
 .contact {
   margin-left: 25px;
-  order: 3;
+order: 3;
 }
 
 .main {
@@ -75,4 +74,5 @@ img {
     padding: 10px;
     margin-top: 10px;
     border-radius: 15px;
+    display: flex;
 }
