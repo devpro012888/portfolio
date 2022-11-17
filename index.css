@@ -58,21 +58,45 @@ p {
   text-align: justify;
   line-height: 25px;
   order: 2;
+  margin-left: 25px;
 }
 
-img {
-  margin-right: 25px;
-  order: 1;
+figure {
+    margin: auto;
+    order: 1;
+}
+
+figcaption {
+    position: absolute;
+    margin-top: -30px;
+    width: 285px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
 }
 .contact {
-  margin-left: 25px;
-order: 3;
+    margin-left: 25px;
+    order: 3;
 }
 
 .main {
     background-color: white;
-    padding: 10px;
     margin-top: 10px;
     border-radius: 15px;
     display: flex;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    padding: 10px;
+    vertical-align: middle;
 }
