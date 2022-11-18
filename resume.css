@@ -1,53 +1,80 @@
-/*Navigation Bar */
-.nav ul {
+
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+
+  .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-}
-
-.nav li {
+    border-radius: 15px;
+  }
+  
+  .nav li {
     display: inline;
     float: left;
-}
-
-.nav li a {
+  }
+  
+  .nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.nav a {
+  }
+  
+  .nav a {
     display: block;
     padding: 8px;
-}
+  }
+  
+  li a:hover {
+    background-color: darkgray;
+  }
 
 .active {
     background-color: darkgrey;
 }
 
-.title h2 {
-margin-top: -23px;
-color: red;
-}
-
-.contact {
-float: right;
-margin-top: auto;
-}
-
-.contact h3 {
-margin-top: -23px;
-}
-
-.skills img {
-    padding-top: 50px;
-}
-
 body {
     width: 1100px;
     margin: auto;
+    background-color: grey
+}
+
+.contact {
+    border: 5px dotted;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.contact h2, h3 {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+}
+
+.contact h3 {
+    margin-top: -15px;
+}
+
+a {
+text-decoration: none;
 }
