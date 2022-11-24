@@ -55,7 +55,6 @@ body {
 
 .contact {
     background-color: white;
-    width: 500px;
     box-shadow: 5px 10px black;
     margin: 0 auto;
     text-align: center;
@@ -75,11 +74,41 @@ text-decoration: none;
 
 .skills {
   background-color: white;
-  width: 350px;
+  width: 530px;
+  height: 250px;
   box-shadow: 5px 10px black;
   padding: 5px;
+  order: 1;
 }
 
 .skills h2 {
   text-align: center;
+}
+
+.education {
+  background-color: white;
+  width: 530px;
+  height: 250px;
+  padding: 5px;
+  box-shadow: 5px 10px black;
+  float: right;
+  overflow: scroll;
+  order: 2;
+  margin-left: 40px;
+}
+
+.education h2 {
+  text-align: center;
+}
+
+.education h3 {
+  text-align: center;
+}
+
+
+.row2 {
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+
 }
