@@ -1,0 +1,33 @@
+/**
+* CORE CONFIG
+* This powers everything from utility class generation to breakpoints
+* to enabling/disabling pre-built components/utilities.
+*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd, {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a class of list role, which suggests default styling will be removed  */
+ul [role="list"],
+ol [role="list"] {
+  list-style: none;
+  padding: 0;
+}
