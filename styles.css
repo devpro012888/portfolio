@@ -21,7 +21,7 @@ p,
 figure,
 blockquote,
 dl,
-dd, {
+dd {
   margin: 0;
 }
 
@@ -51,7 +51,7 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img {
+img, picture {
   max-width: 100%;
   display: block;
 }
@@ -71,7 +71,7 @@ select {
 }
 
 :focus {
-  outline: 2px dashed #00ff19
+  outline: 2px dashed #00ff19;
   outline-offset: 0.25rem;
 }
 
@@ -106,35 +106,30 @@ main:focus {
   --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
 }
 
-h1 {
+h1,
   .h1 {
     font-size: var(--step-5);
   }
-}
 
-h2 {
+h2,
   .h2 {
     font-size: var(--step-4);
   }
-}
 
-h3 {
+h3,
   .h3 {
     font-size: var(--step-3);
   }
-}
 
-h4 {
+h4,
   .h4 {
     font-size: var(--step-2);
   }
-}
 
-h5 {
+h5,
   .h5 {
     font-size: var(--step-1);
   }
-}
 
 /* define some constants */
 .flex {
@@ -222,7 +217,7 @@ h5 {
 
 /*General styling for the hero section*/
 section {
-  padding: var(--space-2xl) var(--space-1);
+  padding: var(--space-2xl) var(--space-l);
 }
 
 section#hero {
