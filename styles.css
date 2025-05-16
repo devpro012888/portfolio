@@ -32,9 +32,13 @@ ol [role="list"] {
   padding: 0;
 }
 
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
 /* Set core root defaults */
-html :focus-within
-  {
+html :focus-within{
   scroll-behavior: smooth;
 }
 
@@ -265,4 +269,66 @@ section#about {
   background-color: #ffffff;
   color: #333;
   --color-accent: #ffd700;
+}
+
+/* work section */
+.work_logos {
+  margin-top: var(--space-xl);
+}
+
+section#work {
+  background-color: #87ceeb;
+  color: #0c0c0c;
+  --color-accent: #2e8b57;
+}
+
+/* contact section */
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button[type="submit"] {
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+ background-color: #007bff;
+ color: white;
+ cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* footer section */
+section#footer {
+  padding: var(--space-l) var(--space-l);
 }
