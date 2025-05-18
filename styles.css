@@ -332,3 +332,7 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
+.text_right {
+  text-align: center;
+}
