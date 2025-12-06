@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 Portfolio website for Christopher E. White — a simple, responsive static site showcasing experience and projects.
 
