@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.contact-info {
+    line-height: 3px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
