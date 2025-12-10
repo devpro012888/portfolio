@@ -18,3 +18,17 @@ body {
 .education {
     line-height: 3px;
 }
+
+.skills-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.milserv{
+    line-height: 3px;
+}
+
+.groups {
+    line-height: 3px;
+}
