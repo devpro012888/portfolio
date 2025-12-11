@@ -1,8 +1,10 @@
 header {
     text-align: center;
     line-height: 20px;
-    border: 1px solid black;
+    border: 10px solid black;
     font-family: Arial, 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 20px;
 }
 
 header h1 {
@@ -13,7 +15,20 @@ header h2 {
     font-size: 30px;
 }
 
-.contact-info {
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
     line-height: 3px;
 }
 
@@ -22,11 +37,28 @@ body {
     margin: 0 auto;
 }
 
-.job {
-    line-height: 3px;
+.profsum {
+    width: 600px;
+    text-align: justify;
+}
+
+.work-experience {
+    width: 600px;
+}
+
+.side-bar {
+    width: 350px;
+    float: right;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .education {
+    line-height: 3px;
+}
+.job {
     line-height: 3px;
 }
 
