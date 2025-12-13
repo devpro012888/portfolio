@@ -1,7 +1,6 @@
 header {
     text-align: center;
     line-height: 20px;
-    border: 10px solid black;
     font-family: Arial, 'Times New Roman', Times, serif;
     color: black;
     margin-top: 20px;
@@ -9,10 +8,26 @@ header {
 
 header h1 {
     font-size: 45px;
+    color: #000435;
 }
 
 header h2 {
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+.divider-one {
+    border: 2px solid #000435;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider-two {
+    border: 2px solid skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -35,6 +50,10 @@ nav ul li {
 body {
     width: 1000px;
     margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .profsum {
@@ -49,9 +68,9 @@ body {
 .side-bar {
     width: 350px;
     float: right;
-    background-color: lightgray;
+    background-color: skyblue;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
 }
 
@@ -75,3 +94,21 @@ body {
 .groups {
     line-height: 3px;
 }
+
+.remove-space {
+    margin-bottom: 0;
+}
+
+/*Style for Download Button*/
+.btn {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Darker background on mouse-over*/
+.btn:hover {
+    background-color: royalblue;
