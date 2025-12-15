@@ -68,3 +68,11 @@ of each other instead of next to each other */
         padding: 0;
     }
 }
+
+.mil-to-se {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.6;
+}
