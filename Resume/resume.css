@@ -151,3 +151,8 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+@media (max-width: 1024px) {
+    body {width: 100%; margin: 0;}
+    nav ul {flex-direction: column; align-items: flex-start;}
+}
