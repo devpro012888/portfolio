@@ -70,9 +70,14 @@ of each other instead of next to each other */
 }
 
 .mil-to-se {
-    float: right;
-    width: 50%;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 1.6;
+}
+
+.mil-to-se-img {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }

@@ -72,6 +72,7 @@ body {
 
 .work-experience {
     width: 600px;
+    text-align: justify;
 }
 
 .side-bar {
