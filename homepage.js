@@ -1,5 +1,12 @@
-WebTransportError.sendMail({
-    to: "christopher.e.white2@gmail.com",
-    subject: "New Contact Form Submission",
-    text: Message
-})
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); //stops page direct
+
+    const formData = new FormData(this);
+
+    console.log("Name:", formData.get("name"));
+    console.log("Email:", formData.get("email"));
+    console.log("Message:", formData.get("message"));
+
+    alert("Form submitted successfully!");
+
+});
