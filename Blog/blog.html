@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Follow my journey from active-duty Coast Guard to software engineer as I build web development skills, earn certifications, and transition into tech.">
-    <meta name="description" content="Learn how artificial intelligence tools like ChatGPT and Microsoft Copilot can support beginners learning to code-without replaciing real understanding">
     <title>Software Engineer's Journal</title>
     <link rel="stylesheet" href="blog.css" />
 </head>
@@ -49,7 +48,7 @@
                         <p>In addition, I frequently use Microsoft Visual Studio Code Copilot to:</p>
 
                         <ul>
-                            <li>Generate repetative code snippets</li>
+                            <li>Generate repetitive code snippets</li>
                             <li>Improve code organization and readability</li>
                             <li>Speed up development without sacrificing understanding</li>
                         </ul>
@@ -68,7 +67,7 @@
 
                         <ol>
                             <li>Research the problem on my own</li>
-                            <li>Read documentatioin</li>
+                            <li>Read documentation</li>
                             <li>Search forums like Stack Overflow</li>
                         </ol>
 
@@ -82,16 +81,16 @@
                             It's not a replacement for learning, but rather a companion that can guide, explain, and accelerate progress. 
                         </p>
 
-                        <p>As I continue my programming journey, I plan to use AI tools strategically-always prioritiing understanding over convenience.</p>
+                        <p>As I continue my programming journey, I plan to use AI tools strategically-always prioritizing understanding over convenience.</p>
                         
                         <p>Thank You for reading!</p>
 
                         <p>Happy coding!</p>
                         </article>
                     <hr>
-                    <h2>From Military to Software Engineer: My Journey Into Tech</h2>
+                    <h2 id="mil-se">From Military to Software Engineer: My Journey Into Tech</h2>
                     <h5>Transition from Military Service to Software Engineering<br>December 15, 2025</h5>
-                    <img class="mil-to-se-img" src="../Blog/Blog Posts/From Military to Sofware Engineer/military_to_se.png" alt="Military to Software Engineer" style="width:50%">
+                    <img class="mil-to-se-img" src="military_to_se.png" alt="Military to Software Engineer" style="width:50%">
                     <article class="mil-to-se">
                         <p>Welcome to The Software Engineer’s Journal, and thank you for reading my very first blog post. My name is Christopher White, 
                         and I am currently serving on active duty in the United States Coast Guard. With over 17 years of military service, I’ve built a 
@@ -149,10 +148,16 @@
                 </div>
                 <div class="card">
                     <h3>Blog Posts</h3>
-                    <label for="2026_blog_posts">2026</label>
-                    <select name="2026_blog_posts" id="2026_blog_posts">
+                    <label for="2025_blog_posts">2025</label>
+                    <select name="2025_blog_posts" id="2025_blog_posts" onchange="window.location.href=this.value;">
                         <option value="">Select Article</option>
-                        <option value=""><a href="#ai">Artificial Intelligence in my learning</a></option>
+                        <option value="#mil-se">From Military to Software Engineer</option>
+                    </select>
+                    <br>
+                    <label for="2026_blog_posts">2026</label>
+                    <select name="2026_blog_posts" id="2026_blog_posts" onchange="window.location.href=this.value;">
+                        <option value="">Select Article</option>
+                        <option value="#ai">Artificial Intelligence in my learning</option>
                         <option value="">Blog Post</option>
                         <option value="">Blog Post</option>
                     </select>
