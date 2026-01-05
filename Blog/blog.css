@@ -22,9 +22,6 @@ body {
     float: left;
     width: 75%;
     max-height: 1200px;
-    position: sticky;
-    overflow: scroll;
-    margin-top: 13px;
 }
 
 /* Right column */
@@ -73,22 +70,8 @@ of each other instead of next to each other */
     }
 }
 
-.mil-to-se {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1.6;
-}
-
-.mil-to-se-img {
+.blog-preview {
     float: right;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-
-.artificial-intelligence {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1.6;
+    padding: 1%;
+    width: 70%;
 }
