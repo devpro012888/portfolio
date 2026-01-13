@@ -23,6 +23,7 @@ body {
     width: 75%;
     max-height: 1200px;
     overflow: scroll;
+    margin-top: 8px;
 }
 
 /* Right column */
