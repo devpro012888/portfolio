@@ -3,7 +3,7 @@ const OWNER_KEY = "site_owner";
 // Mark yourself once (run once in browser console)
 // localStorage.setItem(OWNER_KEY, "true");
 
-const API_KEY = "devpro012888/portfolio";
+const API_KEY = "devpro012888.github.io/portfolio";
 
 // Check if we're on the live site (HTTPS) or local (HTTP)
 const isLocal = window.location.protocol === 'http:';
