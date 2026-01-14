@@ -23,10 +23,16 @@ body {
     width: 80%;
     margin: 0 auto;
     background-color: #f1f1f1;
+    margin-bottom: 10%;
 }
 
 article {
     background-color: white;
     padding: 2%;
     margin-top: 1%;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
 }
