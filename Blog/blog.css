@@ -10,7 +10,7 @@ body {
 
 /* Header/Blog Title */
 .header {
-    padding: 30px;
+    padding: 20px;
     font-size: 40px;
     background: white;
     text-align: center;
@@ -23,7 +23,6 @@ body {
     width: 75%;
     max-height: 1200px;
     overflow: scroll;
-    margin-top: 8px;
 }
 
 /* Right column */
@@ -80,3 +79,4 @@ of each other instead of next to each other */
 #twenty_twenty_five_blog_posts {
     margin-bottom: 10px;
 }
+
