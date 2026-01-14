@@ -3,7 +3,7 @@ const OWNER_KEY = "site_owner";
 // Mark yourself once (run once in browser console)
 // localStorage.setItem(OWNER_KEY, "true");
 
-const API_KEY = "devpro012888.github.io/portfolio";
+const API_KEY = "devpro012888/portfolio";
 
 if (localStorage.getItem(OWNER_KEY) === "true") {
   // Owner: just get the count without incrementing
