@@ -14,6 +14,19 @@ body {
     font-size: 40px;
     background: white;
     text-align: center;
+    border-bottom: 3px solid #f1f1f1;
+}
+
+.header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.header i {
+    display: block;
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
 }
 
 /*Create two unequal columns that floats next to each other */
@@ -21,8 +34,6 @@ body {
 .leftcolumn {
     float: left;
     width: 75%;
-    max-height: 1200px;
-    overflow: scroll;
 }
 
 /* Right column */
@@ -43,6 +54,13 @@ body {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Clear floats after the columns */
@@ -76,7 +94,60 @@ of each other instead of next to each other */
     width: 80%;
 }
 
+.blog-preview a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.blog-preview a:hover {
+    text-decoration: underline;
+    color: #0052a3;
+}
+
 #twenty_twenty_five_blog_posts {
     margin-bottom: 10px;
 }
 
+select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select:hover {
+    border-color: #999;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+.card img {
+    border-radius: 4px;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 56px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
