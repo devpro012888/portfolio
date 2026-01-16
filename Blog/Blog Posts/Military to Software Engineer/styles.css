@@ -53,3 +53,8 @@ button a {
     text-decoration: none;
     color: black;
 }
+
+.commentbox {
+    margin: 0 auto;
+    display: block;
+}
