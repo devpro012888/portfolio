@@ -200,6 +200,7 @@ h5,
 .site_header {
   padding: var(--space-s) 0;
   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9));
+  
 }
 
 .site_header_nav ul li a {
