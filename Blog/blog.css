@@ -157,3 +157,8 @@ button a {
     text-decoration: none;
     color: black;
 }
+
+.follow-me {
+    display: flex;
+    gap: 10px;
+}
