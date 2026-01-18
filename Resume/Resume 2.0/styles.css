@@ -1,0 +1,21 @@
+/* Base reset for padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container for centering the content */
+.containter {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
