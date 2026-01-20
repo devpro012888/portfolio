@@ -120,3 +120,20 @@ section ul li {
     font-size: 0.8em;
     color: #666;
 }
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 56px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
