@@ -217,6 +217,31 @@ h5,
   margin-bottom: var(--space-s);
 }
 
+/* CTA Button Styling */
+.cta-button {
+  display: inline-block;
+  margin-top: var(--space-m);
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.hire-me-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #007bff;
+}
+
+.hire-me-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+
 .hero_social {
   padding-top: var(--space-3xl);
 }
