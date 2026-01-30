@@ -32,13 +32,14 @@ ol [role="list"] {
   padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
 }
 
 /* Set core root defaults */
-html :focus-within{
+html :focus-within {
   scroll-behavior: smooth;
 }
 
@@ -47,7 +48,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   letter-spacing: -0.01em;
-
 }
 
 /* All elements that don't have a class get default styles */
@@ -56,15 +56,16 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img, picture {
+img,
+picture {
   max-width: 100%;
   display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
-input, 
-button, 
-textarea, 
+input,
+button,
+textarea,
 select {
   font: inherit;
 }
@@ -112,29 +113,29 @@ main:focus {
 }
 
 h1,
-  .h1 {
-    font-size: var(--step-5);
-  }
+.h1 {
+  font-size: var(--step-5);
+}
 
 h2,
-  .h2 {
-    font-size: var(--step-4);
-  }
+.h2 {
+  font-size: var(--step-4);
+}
 
 h3,
-  .h3 {
-    font-size: var(--step-3);
-  }
+.h3 {
+  font-size: var(--step-3);
+}
 
 h4,
-  .h4 {
-    font-size: var(--step-2);
-  }
+.h4 {
+  font-size: var(--step-2);
+}
 
 h5,
-  .h5 {
-    font-size: var(--step-1);
-  }
+.h5 {
+  font-size: var(--step-1);
+}
 
 /* define some constants */
 .flex {
@@ -200,7 +201,6 @@ h5,
 .site_header {
   padding: var(--space-s) 0;
   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9));
-  
 }
 
 .site_header_nav ul li a {
@@ -252,8 +252,9 @@ section {
 }
 
 section#hero {
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-  url("background2.avif");
+  background:
+    linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+    url("background2.avif");
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
@@ -265,7 +266,7 @@ section#hero {
 /* About section */
 .about_content {
   padding: var(--space-xl) 0;
-  transform: skewX(-10deg)
+  transform: skewX(-10deg);
 }
 
 @media (max-width: 468px) {
@@ -279,7 +280,7 @@ section#hero {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 2px solid #ccc;
   display: inline-block;
-  padding: 5px
+  padding: 5px;
 }
 
 .about_img {
@@ -343,12 +344,12 @@ textarea {
 }
 
 button[type="submit"] {
- padding: 10px 20px;
- border: none;
- border-radius: 4px;
- background-color: #007bff;
- color: white;
- cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
 }
 
 button[type="submit"]:hover {
