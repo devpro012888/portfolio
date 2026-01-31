@@ -1,0 +1,12 @@
+# Robots.txt for Christopher White Portfolio
+User-agent: *
+Allow: /
+Disallow: /resume/resume 2.0/
+Disallow: /blog/blog%20posts/
+
+# Sitemap location
+Sitemap: https://chrisewhite.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 10
+

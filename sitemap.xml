@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://chrisewhite.com/</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Blog Main Page -->
+    <url>
+        <loc>https://chrisewhite.com/blog/blog.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Blog Post: Military to Software Engineer -->
+    <url>
+        <loc>https://chrisewhite.com/blog/blog-posts/military-to-software-engineer/military-se.html</loc>
+        <lastmod>2025-12-15</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Blog Post: Artificial Intelligence -->
+    <url>
+        <loc>https://chrisewhite.com/blog/blog-posts/artificial-intelligence/ai.html</loc>
+        <lastmod>2026-01-02</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Blog Post: Visual Studio Code -->
+    <url>
+        <loc>https://chrisewhite.com/blog/blog-posts/microsoft-visual-studio-code/vs-code-article.html</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Blog Post: HTML Cheat Sheet -->
+    <url>
+        <loc>https://chrisewhite.com/blog/blog-posts/html-cheat-sheet/html-cheat-sheet.html</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Projects Page -->
+    <url>
+        <loc>https://chrisewhite.com/projects/projects.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Resume Page -->
+    <url>
+        <loc>https://chrisewhite.com/resume/resume2.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>quarterly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Old Resume Page -->
+    <url>
+        <loc>https://chrisewhite.com/resume/resume.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>quarterly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
+

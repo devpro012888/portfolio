@@ -1,159 +1,285 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christopher White</title>
-    <meta name="description" content="Portfolio of Christopher White, a passionate software engineer specializing in web development, responsive design, and modern technologies.">
-    <meta name="keywords" content="software engineer, web developer, portfolio, JavaScript, HTML, CSS, responsive design, Maryland">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Christopher White">
-    <link rel="canonical" href="https://chrisewhite.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Christopher White | Software Engineer & Web Developer | Maryland
+    </title>
+    <meta
+      name="description"
+      content="Portfolio of Christopher White, a passionate software engineer and web developer in Maryland specializing in JavaScript, HTML, CSS, responsive design, and modern web technologies. Explore projects, blog, and resume."
+    />
+    <meta
+      name="keywords"
+      content="software engineer, web developer, portfolio, JavaScript developer, HTML, CSS, responsive design, Maryland, Crofton, frontend developer, full stack developer, FreeCodeCamp"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Christopher White" />
+    <link rel="canonical" href="https://chrisewhite.com" />
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://chrisewhite.com">
-    <meta property="og:title" content="Christopher White - Software Engineer Portfolio">
-    <meta property="og:description" content="Portfolio of Christopher White, a passionate software engineer specializing in web development, responsive design, and modern technologies.">
-    <meta property="og:image" content="https://devpro012888.github.io/portfolio/github_avatar_compressed.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chrisewhite.com" />
+    <meta
+      property="og:title"
+      content="Christopher White - Software Engineer & Web Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of Christopher White, a passionate software engineer and web developer in Maryland specializing in JavaScript, HTML, CSS, responsive design, and modern web technologies."
+    />
+    <meta
+      property="og:image"
+      content="https://chrisewhite.com/github_avatar_compressed.jpg"
+    />
     <!-- X (formerly Twitter) -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://chrisewhite.com/">
-    <meta property="twitter:title" content="Christopher White - Software Engineer Portfolio">
-    <meta property="twitter:description" content="Portfolio of Christopher White, a passionate software engineer specializing in web development, responsive design, and modern technologies.">
-    <meta property="twitter:image" content="https://devpro012888.github.io/portfolio/github_avatar_compressed.jpg">
-    <link rel="stylesheet" href="styles.css">
-    <script src="homepage.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3948425285148779"
-     crossorigin="anonymous"></script>
-</head>
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://chrisewhite.com/" />
+    <meta
+      property="twitter:title"
+      content="Christopher White - Software Engineer & Web Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Portfolio of Christopher White, a passionate software engineer and web developer in Maryland specializing in JavaScript, HTML, CSS, responsive design, and modern web technologies."
+    />
+    <meta
+      property="twitter:image"
+      content="https://chrisewhite.com/github_avatar_compressed.jpg"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="homepage.js" defer></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3948425285148779"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GFFVZ1Z4WL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-GFFVZ1Z4WL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-GFFVZ1Z4WL');
-</script>
+    gtag("config", "G-GFFVZ1Z4WL");
+  </script>
 
-<body>
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Christopher E. White",
+      "jobTitle": "Software Engineer",
+      "url": "https://chrisewhite.com",
+      "image": "https://chrisewhite.com/github_avatar_compressed.jpg",
+      "description": "Software engineer and web developer specializing in JavaScript, HTML, CSS, responsive design, and modern web technologies.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Crofton",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://github.com/devpro012888",
+        "https://www.linkedin.com/in/christopherwhite1988/",
+        "https://www.instagram.com/ichris_white/",
+        "https://www.facebook.com/christopher.e.white/"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Web Development",
+        "Responsive Design",
+        "Software Engineering"
+      ]
+    }
+  </script>
+
+  <body>
     <header class="site_header">
-        <div class="wrapper_inner">
-            <nav class="site_header_nav"> 
-              <ul class="flex flex_center">
-                <li><a href="#0">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="/blog/blog.html">Blog</a></li>
-                <li><a href="/projects/projects.html">Projects</a></li>
-               <!-- <li><a href="">Certifications</a></li> -->
-                <li><a href="/resume/resume 2.0/resume2.html">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>  
-            </nav>
-        </div>
+      <div class="wrapper_inner">
+        <nav class="site_header_nav">
+          <ul class="flex flex_center">
+            <li><a href="#0">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="/blog/blog.html">Blog</a></li>
+            <li><a href="/projects/projects.html">Projects</a></li>
+            <!-- <li><a href="">Certifications</a></li> -->
+            <li><a href="/resume/resume 2.0/resume2.html">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main role="main">
-        <section id="hero">
-            <div class="wrapper">
-                <div class="wrapper_inner">
-                    <div class="text_center hero_content">
-                        <h1 class="h2">Christopher E. White</h1>
-                        <p class="h5">Software Engineer</p>
-                        <a href="mailto:christopher.e.white2@gmail.com" class="cta-button hire-me-btn">Hire Me</a>
-                    </div>
-                </div>
-                <ul class="flex flex_between hero_social">
-                    <li><span>Crofton, Maryland</span></li>
-                    <li>
-                        <ul class="flex">
-                            <li>Find me online</li>
-                            <li>
-                                <a href="https://github.com/devpro012888" target="_blank" rel="noopener noreferrer">
-                                    <img src="github-mark-white.png" alt="GitHub" width="24" height="24">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/christopherwhite1988/" target="_blank" rel="noopener noreferrer">
-                                    <img src="linkedin_logo_icon.png" alt="LinkedIn" width="24" height="24"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/ichris_white/" target="_blank" rel="noopener noreferrer">
-                                    <img src="instagram_icon.png" alt="Instagram" width="24" height="24"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/christopher.e.white/" target="_blank" rel="noopener noreferrer">
-                                    <img src="facebook_logo_icon.png" alt="Facebook" width="24" height="24"></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+      <section id="hero">
+        <div class="wrapper">
+          <div class="wrapper_inner">
+            <div class="text_center hero_content">
+              <h1 class="h2">Christopher E. White</h1>
+              <p class="h5">Software Engineer</p>
+              <a
+                href="mailto:christopher.e.white2@gmail.com"
+                class="cta-button hire-me-btn"
+                >Hire Me</a
+              >
             </div>
-        </section>
-        <section id="about">
-            <div class="wrapper">
-                <div class="text_center">
-                    <h2>
-                        I am a web developer with a passion for creating dynamic and responsive web applications. I am expanding my knowledge in various programming languages and frameworks, and I am always eager to learn new technologies.
-                    </h2>
-                </div>
-                <div class="wrapper_inner">
-                    <div class="about_content flex flex_around">
-                        <figure class="about_figure text_center">
-                            <img src="github_avatar_compressed.jpg" alt="Christopher White, Software Engineer" width="800px" height="200px" class="about_image">
-                            <figcaption class="about_content">"Leadership is not about being in charge.  Leadership is about taking care of
-                                those in your charge." - Simon Sinek
-                            </figcaption>
-                        </figure>
-                        <p class="h5">
-                          In my free time, I enjoy spending time with my family, learning new programming languages and playing chess. 
-                        </p>
-                    </div>
-                </div>
+          </div>
+          <ul class="flex flex_between hero_social">
+            <li><span>Crofton, Maryland</span></li>
+            <li>
+              <ul class="flex">
+                <li>Find me online</li>
+                <li>
+                  <a
+                    href="https://github.com/devpro012888"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="github-mark-white.png"
+                      alt="GitHub"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/christopherwhite1988/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="linkedin_logo_icon.png"
+                      alt="LinkedIn"
+                      width="24"
+                      height="24"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/ichris_white/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="instagram_icon.png"
+                      alt="Instagram"
+                      width="24"
+                      height="24"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/christopher.e.white/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="facebook_logo_icon.png"
+                      alt="Facebook"
+                      width="24"
+                      height="24"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="about">
+        <div class="wrapper">
+          <div class="text_center">
+            <h2>
+              I am a web developer with a passion for creating dynamic and
+              responsive web applications. I am expanding my knowledge in
+              various programming languages and frameworks, and I am always
+              eager to learn new technologies.
+            </h2>
+          </div>
+          <div class="wrapper_inner">
+            <div class="about_content flex flex_around">
+              <figure class="about_figure text_center">
+                <img
+                  src="github_avatar_compressed.jpg"
+                  alt="Christopher White, Software Engineer"
+                  width="800px"
+                  height="200px"
+                  class="about_image"
+                  loading="lazy"
+                />
+                <figcaption class="about_content">
+                  "Leadership is not about being in charge. Leadership is about
+                  taking care of those in your charge." - Simon Sinek
+                </figcaption>
+              </figure>
+              <p class="h5">
+                In my free time, I enjoy spending time with my family, learning
+                new programming languages and playing chess.
+              </p>
             </div>
-        </section>
-        <section id="work">
-            <div class="wrapper_inner">
-                <div class="text_center">
-                    <h3 class="h5">
-                        I am actively working on a variety of projects, including web applications, mobile apps, and software development. 
-                        I am also currently studying responsive web design through <a href="https://www.freecodecamp.org">FreeCodeCamp</a>.
-                    </h3>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="wrapper">
-                <div class="wrapper_inner">
-                    <h5 class="h3">Contact Me</h5>
-                    <form id="contactForm" class="contact_form" action="https://formspree.io/f/mnjqwyob" method="POST">
-                        <div class="form_group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form_group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form_group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="wrapper_inner">
+          <div class="text_center">
+            <h3 class="h5">
+              I am actively working on a variety of projects, including web
+              applications, mobile apps, and software development. I am also
+              currently studying responsive web design through
+              <a href="https://www.freecodecamp.org">FreeCodeCamp</a>.
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="wrapper">
+          <div class="wrapper_inner">
+            <h5 class="h3">Contact Me</h5>
+            <form
+              id="contactForm"
+              class="contact_form"
+              action="https://formspree.io/f/mnjqwyob"
+              method="POST"
+            >
+              <div class="form_group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form_group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form_group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <section id="footer">
-            <div class="wrapper">
-                <div class="text_right">
-                    <h5>© 2026 Christopher E. White</h5>
-                </div>
-            </div>
-        </section>
+      <section id="footer">
+        <div class="wrapper">
+          <div class="text_right">
+            <h5>© 2026 Christopher E. White</h5>
+          </div>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
