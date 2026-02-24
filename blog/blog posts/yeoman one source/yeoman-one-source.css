@@ -89,7 +89,9 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 article img:hover {
@@ -103,7 +105,11 @@ article img:hover {
   right: var(--spacing-lg);
   width: 150px;
   height: 56px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-dark)
+  );
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -114,7 +120,9 @@ article img:hover {
 
 .floating-btn:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg), 0 8px 16px rgba(0, 102, 204, 0.3);
+  box-shadow:
+    var(--shadow-lg),
+    0 8px 16px rgba(0, 102, 204, 0.3);
 }
 
 .floating-btn:focus {
@@ -164,7 +172,8 @@ p {
   margin-bottom: var(--spacing-md);
 }
 
-ul, ol {
+ul,
+ol {
   color: var(--text-dark);
   line-height: 1.8;
   margin-bottom: var(--spacing-md);
@@ -307,7 +316,8 @@ footer {
     line-height: 1.6;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 1.5rem;
   }
 

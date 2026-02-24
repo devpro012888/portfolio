@@ -97,7 +97,9 @@ img {
   margin: var(--spacing-lg) auto;
   display: block;
   border-radius: 6px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 article img:hover {
@@ -123,7 +125,11 @@ figure {
   right: var(--spacing-lg);
   width: 150px;
   height: 56px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-dark)
+  );
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -134,7 +140,9 @@ figure {
 
 .floating-btn:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg), 0 8px 16px rgba(0, 102, 204, 0.3);
+  box-shadow:
+    var(--shadow-lg),
+    0 8px 16px rgba(0, 102, 204, 0.3);
 }
 
 .floating-btn:focus {
@@ -163,14 +171,16 @@ p {
   margin-bottom: var(--spacing-md);
 }
 
-ul, ol {
+ul,
+ol {
   color: var(--text-dark);
   line-height: 1.8;
   margin-bottom: var(--spacing-md);
   padding-left: var(--spacing-lg);
 }
 
-strong, b {
+strong,
+b {
   font-weight: 700;
   color: var(--text-dark);
 }
@@ -240,7 +250,8 @@ footer {
     font-size: 1.2rem;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     font-size: 1rem;
   }
 
@@ -282,7 +293,8 @@ footer {
     margin: var(--spacing-md) 0;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     font-size: 0.95rem;
   }
 
@@ -299,7 +311,8 @@ footer {
     line-height: 1.6;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 1.5rem;
   }
 
