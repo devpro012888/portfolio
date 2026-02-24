@@ -1,0 +1,166 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+header {
+  line-height: 0.5;
+  background-color: white;
+  padding: 2%;
+  margin-top: 1%;
+  border: 3px solid black;
+  text-align: center;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  margin-bottom: 10%;
+  font-size: 16px;
+}
+
+article {
+  background-color: white;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 56px;
+  background-color: lightgrey;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.commentbox {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 15%;
+  }
+
+  article {
+    padding: 4%;
+  }
+
+  header {
+    padding: 4%;
+    line-height: 1;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .article-subtitle {
+    font-size: 0.9em;
+  }
+
+  .floating-btn {
+    width: 120px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+  }
+
+  article {
+    padding: 5%;
+  }
+
+  header {
+    padding: 5%;
+    line-height: 1.2;
+    border: 2px solid black;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin: 0.8em 0;
+  }
+
+  .article-subtitle {
+    font-size: 0.8em;
+  }
+
+  time {
+    font-size: 0.85em;
+  }
+
+  p {
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+
+  .floating-btn {
+    width: 110px;
+    height: 45px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.85em;
+  }
+
+  button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+footer {
+  margin-top: 2%;
+}
